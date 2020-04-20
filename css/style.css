@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:active, a:link{
+    color: #000;
+}
+
+/*HEADER SECTION*/
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+header {
+	background: #5cbaff;
+	text-align: center;
+	padding: 30px 0px;
+	box-shadow: 0px 2px 3px #000;
+	z-index: 1;
+	position: relative;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-left: 26px;
+}
+ul li:nth-child(4) {
+	margin-left: 50px;
+}
+ul li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: .3s ease-in-out;
+}
+ul li:hover a {
+	color: #000;
+}
+ul li a img {
+	max-width: 100%;
+	position: absolute;
+	top: -6px;
+	left: -32px;
+	width: 30px;
+	height: 30px;
+}
+/*BANNER SECTION*/
+
+.banner_section {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.banner_section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*ABOUT SECTION*/
+
+.about_section {
+	padding-bottom: 300px;
+}
+.about_section h1 {
+    font-size: 50px;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about_section p {
+    font-size: 20px;
+    color: #999;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/*BLOCK SECTION*/
+
+.block_section {
+	padding-bottom: 300px;
+}
+.block_section:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.block_section .post {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.post_text {
+    padding: 0px 10px;
+}
+
+.post_text h2 {
+    font-size: 28px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.post_text p {
+    font-size: 18px;
+    color: #998e8e;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+
+.post_text a {
+    font-size: 13px;
+    color: #5b5757;
+    text-decoration: navajowhite;
+    transition: .3s ease-in-out;
+}
+
+.post_text a:hover {
+    color: #fc0202;
+}
+
+/*CONTACT FORM*/
+
+.contact_section {
+    padding-bottom: 200px;
+}
+
+.contact {
+    width: 70%;
+    margin: auto;
+}
+
+.contact h1 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    color: #288eca;
+}
+
+form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #00a1ff;
+    width: auto;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background: transparent;
+    color: #00a1ff;
+}
+form input:focus, form textarea:focus{
+    outline: 1px solid #00a1ff;
+}
+
+/*treehouse*/
+
+.contact_img {
+  width: 40%;
+  float: left;
+  background: #5cbaff;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  min-height: 700px;
+}
+.contact_img img {
+  max-width: 100%;
+}
+.contact_img h1 img {
+	width: 110px;
+	margin-top: 45px;
+}
+.contact_img .bn_img {
+	padding: 20px 0px 250px;
+}
+.contact_area {
+  width: 60%;
+  float: left;
+  box-sizing: border-box;
+  padding: 140px 200px;
+  background: #0093ff;
+  color: #fff;
+  min-height: 700px;
+}
+.contact_area h2 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.contact_area p {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px 0px 36px;
+}
+.contact_area h3 {
+	font-size: 16px;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+}
+.contact_area form input[type="submit"] {
+	color: #0093ff;
+	background: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+    transition: .3s;
+}
+.contact_area form input[type="submit"]:hover {
+	color: #fff;
+	background: #0093ff;
+}
+.contact_area .social_list {
+	margin-top: 28px;
+}
+.contact_area .social_list{
+    font-size: 16px;
+	font-weight: 400;
+}
+.contact_area .social_list a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 10px;
+}
